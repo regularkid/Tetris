@@ -1,0 +1,37 @@
+DONE - Start pieces higher (offscreen?)
+DONE - Center pieces properly when starting out
+DONE - Add score textAdd next piece display / logic
+DONE - Add sfx
+DONE - Add music
+DONE - Add start screen / death screen
+Clean code / refactor hacks
+    - Don't clear cache between states
+    - Load everything in load state
+    - Create all assets in load state?
+    - Move create text obj func to util.js
+    - Standardize capitalization for files
+    - Standardize capitaliztaion for functions / variables
+    - Use create text obj where needed
+    - Refactor/clean input logic - no events for piece logic?
+    - Clean line removal + playing update logic
+    - Refactor/clean gamePiece.js
+    - Refactor/clean gameBoard.js
+    - Refactor/clean gridSquare.js
+    - Move piece defs into their own .js
+    - More explaining comments where needed
+    - Refactor/clean playState.js
+    - Refactor/clean and do something with globals - what's the standard?
+    - Add better access/usage for sounds and music
+    - Center canvas in HTML?
+    - Can canvas scale based on window sizing/resizing?
+DONE - Add rotation against walls logic (wall kicks)
+Upload to GitHub
+DONE - Speed up every 10 lines? whatever the standard is
+DONE - Implement Tetris random generator logic - http://tetris.wikia.com/wiki/Random_Generator
+DONE - Add ghost
+DONE - Add init() to states to reset things
+DONE - Add controls on left side of screen
+DONE - Fix bug with game running super fast when regaining focus
+DONE - Loop music
+DONE - Controls to toggle music/sfx
+Stop - next game
